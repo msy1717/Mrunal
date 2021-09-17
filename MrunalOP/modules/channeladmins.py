@@ -20,11 +20,11 @@ from asyncio import QueueEmpty
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from DaisyXMusic.config import que
-from DaisyXMusic.function.admins import set
-from DaisyXMusic.helpers.decorators import authorized_users_only, errors
-from DaisyXMusic.services.callsmusic import callsmusic
-from DaisyXMusic.services.queues import queues
+from MrunalOP.config import que
+from MrunalOP.function.admins import set
+from MrunalOP.helpers.decorators import authorized_users_only, errors
+from MrunalOP.services.callsmusic import callsmusic
+from MrunalOP.services.queues import queues
 
 
 @Client.on_message(
