@@ -17,7 +17,6 @@
     "SESSION_NAME": {
       "description": "Pyrogram session string",
       "required": true
-      "value": "AQABdgOhvqJiHsqF9B3YwrI5LEK1Za7tR_zhsJcy5RIoFzdKeGQ8j-QAb8blVtAnvkjnyZea7mxi3WZRFKjgXLBjxSpix133q45rlIQx8ojA-EcSAsjv-ElOEUIh-qHMKsL8L7rDP9Iq3RBQixBKATYJX5MRkvKFG80IauJeiYhbaHdaU5DSxin0LlUVKu4EhTaJPMLqVzTMHJFxHmkSARDoqwV3ch_wPqSVFj1bJxyVYU6KGviqOV-UIWpxBpkH-HkPgklu8Pb0ldnExzar_Kf3pE0RhL-0H9F6K4QNgpvHZdUI08K18iYnK3FFQM_mo-0rgleiiIQykFD-HO92qcWNdN5muwA"
     },
     "BOT_TOKEN": {
       "description": "A bot token from @BotFather",
