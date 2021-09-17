@@ -35,8 +35,10 @@ from pyrogram.types import Message
 from youtube_search import YoutubeSearch
 from youtubesearchpython import SearchVideos
 
-from DaisyXMusic.config import DURATION_LIMIT
-from DaisyXMusic.modules.play import arq
+from MrunalOP
+.config import DURATION_LIMIT
+from MrunalOP
+.modules.play import arq
 
 
 @Client.on_message(filters.command("song") & ~filters.channel)
@@ -76,7 +78,7 @@ def song(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = "**🎵 Uploaded by DaisyXMusic**"
+        rep = "**🎵 Uploaded by SONG DOWNLOADER BOT**"
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(dur_arr[i]) * secmul
