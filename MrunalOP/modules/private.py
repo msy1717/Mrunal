@@ -1,32 +1,18 @@
-# Daisyxmusic (Telegram bot project )
-# Copyright (C) 2021  Inukaasith
 
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as
-# published by the Free Software Foundation, either version 3 of the
-# License, or (at your option) any later version.
-
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-#
-# You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import logging
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from DaisyXMusic.config import (
+from MrunalOP.config import (
     BOT_USERNAME,
     PROJECT_NAME,
     SOURCE_CODE,
     SUPPORT_GROUP,
     UPDATES_CHANNEL,
 )
-from DaisyXMusic.modules.msg import Messages as tr
+from MrunalOP.modules.msg import Messages as tr
 
 logging.basicConfig(level=logging.INFO)
 
@@ -53,7 +39,7 @@ def _start(client, message):
                         "💬 Support", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                 ],
-                [InlineKeyboardButton("🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")],
+                [InlineKeyboardButton("🛠 DEV 🛠", url=f"https://t.me/Godmrunal")],
             ]
         ),
         reply_to_message_id=message.message_id,
