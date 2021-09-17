@@ -20,9 +20,9 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 
-from DaisyXMusic.config import SUDO_USERS
-from DaisyXMusic.helpers.decorators import authorized_users_only, errors
-from DaisyXMusic.services.callsmusic import client as USER
+from MrunalOP.config import SUDO_USERS
+from MrunalOP.helpers.decorators import authorized_users_only, errors
+from MrunalOP.services.callsmusic import client as USER
 
 
 @Client.on_message(filters.command(["userbotjoin"]) & ~filters.private & ~filters.bot)

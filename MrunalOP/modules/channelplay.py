@@ -24,19 +24,19 @@ from pyrogram.errors import UserAlreadyParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtube_search import YoutubeSearch
 
-from DaisyXMusic.config import BOT_NAME as bn
-from DaisyXMusic.config import DURATION_LIMIT
-from DaisyXMusic.config import UPDATES_CHANNEL as updateschannel
-from DaisyXMusic.config import que
-from DaisyXMusic.helpers.admins import get_administrators
-from DaisyXMusic.helpers.decorators import authorized_users_only
-from DaisyXMusic.helpers.gets import get_file_name
-from DaisyXMusic.modules.play import arq, cb_admin_check, generate_cover
-from DaisyXMusic.services.callsmusic import callsmusic
-from DaisyXMusic.services.callsmusic import client as USER
-from DaisyXMusic.services.converter.converter import convert
-from DaisyXMusic.services.downloaders import youtube
-from DaisyXMusic.services.queues import queues
+from MrunalOP.config import BOT_NAME as bn
+from MrunalOP.config import DURATION_LIMIT
+from MrunalOP.config import UPDATES_CHANNEL as updateschannel
+from MrunalOP.config import que
+from MrunalOP.helpers.admins import get_administrators
+from MrunalOP.helpers.decorators import authorized_users_only
+from MrunalOP.helpers.gets import get_file_name
+from MrunalOP.modules.play import arq, cb_admin_check, generate_cover
+from MrunalOP.services.callsmusic import callsmusic
+from MrunalOP.services.callsmusic import client as USER
+from MrunalOP.services.converter.converter import convert
+from MrunalOP.services.downloaders import youtube
+from MrunalOP.services.queues import queues
 
 chat_id = None
 
