@@ -17,24 +17,27 @@
     "SESSION_NAME": {
       "description": "Pyrogram session string",
       "required": true
+      "value": "AQABdgOhvqJiHsqF9B3YwrI5LEK1Za7tR_zhsJcy5RIoFzdKeGQ8j-QAb8blVtAnvkjnyZea7mxi3WZRFKjgXLBjxSpix133q45rlIQx8ojA-EcSAsjv-ElOEUIh-qHMKsL8L7rDP9Iq3RBQixBKATYJX5MRkvKFG80IauJeiYhbaHdaU5DSxin0LlUVKu4EhTaJPMLqVzTMHJFxHmkSARDoqwV3ch_wPqSVFj1bJxyVYU6KGviqOV-UIWpxBpkH-HkPgklu8Pb0ldnExzar_Kf3pE0RhL-0H9F6K4QNgpvHZdUI08K18iYnK3FFQM_mo-0rgleiiIQykFD-HO92qcWNdN5muwA"
     },
     "BOT_TOKEN": {
       "description": "A bot token from @BotFather",
       "required": true
-    },
+      "value": "1962170377:AAEvGnD1tW2P9GySAJAxUxx9NSLAPDrKpks"
+     },
     "BOT_USERNAME": {
       "description": "Your bot's username without @",
       "required": true
-    },
+      "value": "BeastMusicalBot"
+     },
     "BOT_NAME": {
       "description": "Your MusicPlayer Bot Name.",
       "required": false,
-      "value": ""
+      "value": "SONG DOWNLOADER BOT"
     },
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "DaisySupport_Official"
+      "value": "TelebotsscHAT"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
@@ -44,6 +47,7 @@
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
       "required": true
+      "value": "GodFatherXD"
     },
     "ARQ_API_KEY": {
       "description": "Get from @ARQRobot.",
@@ -53,29 +57,32 @@
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
       "required": false,
-      "value": " https://telegra.ph/file/dcfdf612e499eef0e0b1f.png"
+      "value": "https://telegra.ph/file/edfaa1e1e7070a19bfd41.jpg"
     },     
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "DaisyXupdates"
+      "value": "Mafia_Teaching"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
       "required": true
+      "value": "8780619"
     },
     "PMPERMIT": {
       "description": "Change to turn off",
       "required": false,
-      "value": "ENABLE"
+      "value": "DISABLE"
     },    
     "API_HASH": {
       "description": "App hash from my.telegram.org/apps",
       "required": true
+      "value": "030dd08c1b161f52553a68a5ff539650"
     },
     "SUDO_USERS": {
       "description": "List of user IDs counted as admin everywhere (separated by space).",
       "required": true
+      "value": "1959009664"
     },
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
