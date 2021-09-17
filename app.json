@@ -27,17 +27,17 @@
     "BOT_USERNAME": {
       "description": "Your bot's username without @",
       "required": true
-      "value": "BeastMusicalBot"
+      "value":"BeastMusicalBot"
      },
     "BOT_NAME": {
       "description": "Your MusicPlayer Bot Name.",
       "required": false,
-      "value": "SONG DOWNLOADER BOT"
+      "value":"SONG DOWNLOADER BOT"
     },
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "TelebotsscHAT"
+      "value":"TelebotsscHAT"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
@@ -47,7 +47,7 @@
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
       "required": true
-      "value": "GodFatherXD"
+      "value":"GodFatherXD"
     },
     "ARQ_API_KEY": {
       "description": "Get from @ARQRobot.",
@@ -57,37 +57,37 @@
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
       "required": false,
-      "value": "https://telegra.ph/file/edfaa1e1e7070a19bfd41.jpg"
+      "value":"https://telegra.ph/file/edfaa1e1e7070a19bfd41.jpg"
     },     
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "Mafia_Teaching"
+      "value":"Mafia_Teaching"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
       "required": true
-      "value": "8780619"
+      "value":"8780619"
     },
     "PMPERMIT": {
       "description": "Change to turn off",
       "required": false,
-      "value": "DISABLE"
+      "value":"DISABLE"
     },    
     "API_HASH": {
       "description": "App hash from my.telegram.org/apps",
       "required": true
-      "value": "030dd08c1b161f52553a68a5ff539650"
+      "value":"030dd08c1b161f52553a68a5ff539650"
     },
     "SUDO_USERS": {
       "description": "List of user IDs counted as admin everywhere (separated by space).",
       "required": true
-      "value": "1959009664"
+      "value":"1959009664"
     },
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
       "required": true,
-      "value": "10"
+      "value":"10"
     }
   }
 }
